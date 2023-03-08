@@ -1,0 +1,20 @@
+Support Vector Machines (SVMs) are a type of supervised learning algorithm that can be used for both classification and regression tasks. 
+SVMs are powerful tools for solving linear and non-linear classification problems by finding the optimal hyperplane or decision boundary that
+separates the data into different classes.
+
+In SVMs, the goal is to find a hyperplane that maximally separates the data into different classes. The distance between the hyperplane and the 
+closest data points from each class is called the margin. The SVM algorithm finds the hyperplane that maximizes the margin, which ensures that 
+it is as robust and generalizable as possible.
+
+In cases where the data is not linearly separable, SVMs can still be used by applying kernel methods. The kernel function maps the data into a 
+higher-dimensional feature space where it may be linearly separable. This makes it possible to separate the data into different classes using a 
+hyperplane in this higher-dimensional space.
+
+SVMs have several advantages, such as their ability to handle high-dimensional data, their robustness to outliers, and their ability to generalize
+well to new data. However, they can also be computationally expensive, especially for large datasets. Additionally, the choice of the kernel function
+and its parameters can greatly affect the performance of the SVM algorithm.
+
+
+
+
+
